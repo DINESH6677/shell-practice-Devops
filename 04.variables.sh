@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo $Course
+echo $subject
