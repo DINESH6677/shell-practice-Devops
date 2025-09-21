@@ -1,7 +1,7 @@
 #!/bin/bash
 starttime=$(date +%s)
-sleep 10
+sleep 5 &
 endtime=$(date +%s)
 Total_time = $(($endtime - $starttime))
 
-echo "The Total Ti,e taken to get Executed id : $Total_time"
+echo "The Total Time taken to get Executed is : $Total_time"
