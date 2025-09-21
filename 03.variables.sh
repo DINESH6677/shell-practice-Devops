@@ -1,4 +1,4 @@
 #!/bin/bash
-echo "Enter your password"
+echo Enter your password
 read Password
-echo password
+echo $password
