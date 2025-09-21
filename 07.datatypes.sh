@@ -1,5 +1,6 @@
 #!/bin/bash
 a=5
 b=6
-sum=$(($a+$b))
-echo sum is :${sum}
+c=Devops
+sum=$(($a+$b+$c))
+echo sum is: ${sum}
