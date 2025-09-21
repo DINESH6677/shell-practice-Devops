@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "this course is: $subject"
+echo "this course is: $Subject"
