@@ -7,4 +7,4 @@ echo sum is: ${sum}
 
 Leaders=("Modi" "putin" "Trump")
 
-echo leaders are:${Leaders}
+echo leaders are: ${Leaders[1]}
