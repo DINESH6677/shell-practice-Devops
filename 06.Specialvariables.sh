@@ -6,4 +6,5 @@ echo "current working directory: $PWD"
 echo "displays current user: $USER"
 echo "display home directory of current user: $HOME"
 echo "PID OF SCRIPT: $$"
+sleep 10 &
 echo "to display pid of the last command: $!"
