@@ -1,6 +1,6 @@
 #!/bin/bash
 starttime=$(date +%s)
-sleep 5 &
+sleep 5 
 endtime=$(date +%s)
 Total_time=$(($endtime - $starttime))
 
