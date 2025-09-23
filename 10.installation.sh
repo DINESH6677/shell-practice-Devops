@@ -1,5 +1,5 @@
 #!/bin/bash
-USER= $((id -u))
+USER=$(id -u)
 
 if [ $USER -ne 0 ]; then
     echo "please run the script with root privileges"
