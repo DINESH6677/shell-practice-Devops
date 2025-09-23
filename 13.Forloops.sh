@@ -17,9 +17,9 @@ if [ $USER -ne 0 ]; then
 fi
 VALIDATE(){
     if [ $1 -eq 0 ]; then
-        echo -e "$2 installation is $G successful $N" | tee -a $logs_file
+        echo -e " $2 installation is $G successful $N " | tee -a $logs_file
     else
-        echo -e "$R Error $N $2 installation is $R unsuccessful $N" | tee -a $logs_file
+        echo -e " $R Error $N $2 installation is $R unsuccessful $N " | tee -a $logs_file
         exit 1
     fi
 }
@@ -31,6 +31,6 @@ do
         dnf install $package -y &>>logs_file
         VALIDATE $? $package
     else
-        echo -e " $W $package is already installed so .....$N $Y skipping $N"
+        echo -e " $W $package is already installed so .....$N $Y skipping $N "
     fi
 done
