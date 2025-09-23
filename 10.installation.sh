@@ -1,4 +1,4 @@
-#!/bin/bash.sh
+#!/bin/bash
 USER= $(id -u)
 
 if [ $USER -ne 0 ]; then
