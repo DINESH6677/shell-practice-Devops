@@ -14,3 +14,4 @@ if [ $? -eq 0 ]; then
     echo "Mysql installation is successful"
 else
     echo "Error: Mysql installation is unsuccessful"
+fi
