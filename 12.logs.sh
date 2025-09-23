@@ -6,7 +6,7 @@ G="\e[32m"
 Y="\e[33m"
 W="\e[0m"
 LOGS_Folder="/var/log/shell-script-practice"
-script_name= $(echo $0 | cut -d "." -f1)
+script_name= $( echo $0 | cut -d "." -f1)
 logs_file="$LOGS_Folder/$script_name.log"
 mkdir -p $LOGS_Folder
 
